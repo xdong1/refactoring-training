@@ -12,6 +12,7 @@ namespace Refactoring
         public static void Main(string[] args)
         {
             // Load users from data file
+
             List<User> users = JsonConvert.DeserializeObject<List<User>>(File.ReadAllText(@"Data/Users.json"));
 
             // Load products from data file
