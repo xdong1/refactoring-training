@@ -29,6 +29,7 @@ namespace Refactoring
             Login:
             PromptUser();
 
+
            // if valid user
            if (IsValidUser())
            {
